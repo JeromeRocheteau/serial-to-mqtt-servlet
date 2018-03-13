@@ -8,7 +8,7 @@
 	
   <context-param>
     <param-name>serial-port</param-name>
-    <param-value>/dev/ttyACM1</param-value>
+    <param-value>/dev/ttyACM0</param-value>
   </context-param>
 	
   <context-param>
