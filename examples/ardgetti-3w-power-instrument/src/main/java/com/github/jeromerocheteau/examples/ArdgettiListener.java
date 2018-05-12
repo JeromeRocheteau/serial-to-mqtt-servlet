@@ -37,14 +37,14 @@ public class ArdgettiListener extends SerialMqttListener implements Runnable, Se
     	switch (index) {
     	case 0:  break;
     	case 1: this.pub("tension", value); break;
-    	case 2: this.pub("1/power", value); break;
-    	case 3: this.pub("1/intensity", value); break;
+    	case 2: this.pub("1/intensity", value); break;
+    	case 3: this.pub("1/power", value); break;
     	case 4: this.pub("1/factor", value); break;
-    	case 5: this.pub("2/power", value); break;
-    	case 6: this.pub("2/intensity", value); break;
+    	case 5: this.pub("2/intensity", value); break;
+    	case 6: this.pub("2/power", value); break;
     	case 7: this.pub("2/factor", value); break;
-    	case 8: this.pub("3/power", value); break;
-    	case 9: this.pub("3/intensity", value); break;
+    	case 8: this.pub("3/intensity", value); break;
+    	case 9: this.pub("3/power", value); break;
     	case 10: this.pub("3/factor", value); break;
     	default: ; break;
     	}
